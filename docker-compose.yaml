@@ -1,9 +1,10 @@
 services:
-  postgres:
-    image: 'postgres:latest'
+  db:
+    image: 'postgres:${DB_IMAGE_TAG}'
+    container_name: db
     environment:
-      - 'POSTGRES_DB=mydatabase'
-      - 'POSTGRES_PASSWORD=secret'
-      - 'POSTGRES_USER=myuser'
+      - 'POSTGRES_DB=radiostation_db'
+      - 'POSTGRES_USER=${DB_USER}'
+      - 'POSTGRES_PASSWORD=${DB_PASS}'
     ports:
-      - '5432'
+      - '5432:5432'

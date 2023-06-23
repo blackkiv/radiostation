@@ -1,0 +1,13 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /radiostation
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/radiostation_db?serverTimezone=UTC
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USER:root}
+    password: ${DB_PASS:root}
+logging.level.org.springframework.web.filter:
+  CommonsRequestLoggingFilter: DEBUG

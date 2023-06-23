@@ -9,5 +9,4 @@ public class RadiostationApplication {
     public static void main(String[] args) {
         SpringApplication.run(RadiostationApplication.class, args);
     }
-
 }
