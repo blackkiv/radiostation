@@ -5,8 +5,6 @@ import blck.radiostation.domain.entity.Host;
 import blck.radiostation.exception.InvalidEntityException;
 import blck.radiostation.exception.NoDataAvailableException;
 import blck.radiostation.repository.HostRepository;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

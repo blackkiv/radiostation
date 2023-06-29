@@ -6,7 +6,6 @@ import blck.radiostation.domain.dto.request.CreateTranslationRequest;
 import blck.radiostation.domain.entity.Translation;
 import blck.radiostation.domain.entity.TranslationPart;
 import blck.radiostation.domain.enums.TranslationPartDisplayTab;
-import blck.radiostation.util.TranslationUtil;
 import org.mapstruct.*;
 import org.mapstruct.MappingConstants.ComponentModel;
 

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * @author Livio Agolini
  */
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
-public class NoDataAvailableException extends RuntimeException{
+public class NoDataAvailableException extends RuntimeException {
 
     public NoDataAvailableException(String message) {
         super(message);

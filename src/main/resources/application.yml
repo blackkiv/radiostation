@@ -6,7 +6,7 @@ server:
 spring:
   main:
     allow-circular-references: true # added to support circular injection of mapstruct's mapper,
-                                    #  do not use it for regular service
+    #  do not use it for regular service
   datasource:
     url: jdbc:postgresql://${DB_HOST:localhost}:5432/radiostation_db?serverTimezone=UTC
     driver-class-name: org.postgresql.Driver
